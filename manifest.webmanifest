@@ -1,0 +1,20 @@
+{
+  "name": "NeoValues Deutsch",
+  "short_name": "NeoValues",
+  "description": "Politischer Werte-Test mit deutscher Oberfläche für Smartphones, Tablets und Desktop.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#18181b",
+  "theme_color": "#18181b",
+  "lang": "de",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

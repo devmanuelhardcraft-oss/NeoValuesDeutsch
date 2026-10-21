@@ -1,0 +1,265 @@
+{
+  "economics": [
+    {
+      "id": "e1",
+      "text": "Was sollte die Grundlage der Wirtschaft sein?",
+      "options": [
+        { "text": "Eine Markt- oder Mischwirtschaft: private Unternehmen, die frei handeln oder zusammen mit staatlicher Regulierung, öffentlichen Dienstleistungen und Sozialleistungen arbeiten", "next": "e_market_1" },
+        { "text": "Eine sozialistische Wirtschaft: Ersatz des privaten Kapitalismus durch staatliche Industrie oder arbeitnehmergeführte Kollektive", "next": "e_social_1" },
+        { "text": "Nichtkapitalistische, nichtsozialistische Alternativen: staatlich verankerte Korporatismen, handwerkliches Distributismus oder feudale Landhierarchie", "next": "e_alt_1" }
+      ]
+    },
+    {
+      "id": "e_market_1",
+      "text": "Welche Beziehung sollte der Staat zum privaten Markt haben?",
+      "options": [
+        { "text": "Freie Marktwirtschaft mit möglichst wenig staatlichem Eingriff", "next": "e_market_free" },
+        { "text": "Eine Mischwirtschaft, die private Unternehmen mit staatlicher Aufsicht und Investitionen verbindet", "next": "e_market_mixed" }
+      ]
+    },
+    {
+      "id": "e_market_free",
+      "text": "Welche Rolle hat ein autonomer, unregulierter Markt letztlich?",
+      "options": [
+        { "text": "Innerhalb eines minimalen rechtlichen Rahmens für Handelsverträge und Eigentumsschutz zu arbeiten", "next": "laissez_faire" },
+        { "text": "Als Gegenwirtschaft zu dienen, um den Staat zu umgehen, zu schwächen und ihn letztlich zu ersetzen", "next": "countereconomics" }
+      ]
+    },
+    {
+      "id": "e_market_mixed",
+      "text": "Was sollte die Hauptpriorität der wirtschaftspolitischen Maßnahmen des Staates sein?",
+      "options": [
+        { "text": "Soziale Sicherung, Gesundheitsversorgung und Umverteilung des Einkommens", "next": "e_market_welfare" },
+        { "text": "Förderung von Beschäftigung, wirtschaftlicher Stabilität und öffentlich-private Innovation", "next": "e_market_macro" },
+        { "text": "Strukturierte nationale Koordination zwischen Staat, Industrie und Arbeit", "next": "e_market_coordination" }
+      ]
+    },
+    {
+      "id": "e_market_welfare",
+      "text": "Wie breit sollten das Sozialsystem und die Marktregeln sein?",
+      "options": [
+        { "text": "Ein starkes, universelles Sozialsystem, das allen Bürgern Sicherheit bietet und Unternehmen gesellschaftlich verantwortlich macht", "next": "e_social_universal" },
+        { "text": "Ein leichterer Sozialstaat mit Fokus auf die Grundsicherung, niedrigen Steuern und wettbewerbsfähigen Märkten", "next": "e_social_targeted" }
+      ]
+    },
+    {
+      "id": "e_social_universal",
+      "text": "Wie sollte diese allgemeine soziale Sicherung und regulierte Marktwirtschaft in der Praxis funktionieren?",
+      "options": [
+        {
+          "text": "Eine wettbewerbsfähige Marktwirtschaft mit starkem öffentlichen Gesundheitswesen, Renten und strengen Regeln gegen Monopole verbinden.",
+          "next": "social_market"
+        },
+        {
+          "text": "Arbeitern Sitze in Aufsichtsräten geben, Gewerkschaften stärken und Banken dazu bringen, langfristige Stabilität statt schnellen Gewinn zu fördern.",
+          "next": "rhine_capitalism"
+        },
+        {
+          "text": "Private Unternehmen erhalten, aber Arbeitgebern und dem Staat eine fürsorgliche Pflicht auferlegen, damit die Sicherheit der Arbeitnehmer, Familien und soziale Harmonie geschützt sind.",
+          "next": "paternalistic_capitalism"
+        },
+        {
+          "text": "Die Wirtschaft auf ein Netzwerk aus gegenseitigen Fonds, Genossenschaften, lokalen Unternehmen und von Arbeitnehmern geführten Kooperativen gründen.",
+          "next": "social_solidarity_economy"
+        }
+      ]
+    },
+    {
+      "id": "e_social_targeted",
+      "text": "Wie sollte die soziale Hilfe für Arme neben einem freien Markt funktionieren?",
+      "options": [
+        { "text": "Der Staat soll faire Wettbewerbsregeln durchsetzen, Kartelle auflösen und die Inflation niedrig halten, mit einer bescheidenen sozialen Hilfe", "next": "ordnungspolitik" },
+        { "text": "Ein minimales, bedarfsabhängiges Sicherheitsnetz nur für die ärmsten Bürger schaffen und Unternehmen weitgehend deregulieren", "next": "residualism" },
+        { "text": "Komplexe Sozialleistungen und Mindestlohngesetze durch ein bedingungsloses Grundeinkommen für alle ersetzen", "next": "basic_income_capitalism" }
+      ]
+    },
+    {
+      "id": "e_market_macro",
+      "text": "Wie sollte der Staat wirtschaftliche Stabilität und Wachstum fördern?",
+      "options": [
+        { "text": "Konjunkturgerechte öffentliche Ausgaben, Infrastrukturinvestitionen und Anreize, um Beschäftigung zu sichern", "next": "keynesianism" },
+        { "text": "Öffentlich-private Partnerschaften, Weiterbildung und marktorientierte Flexibilität", "next": "third_way" }
+      ]
+    },
+    {
+      "id": "e_market_coordination",
+      "text": "Wie sollte der Staat Industrie und Arbeit auf nationaler Ebene koordinieren?",
+      "options": [
+        { "text": "Strategische Industriebewertung, Kapitalverteilung und Entwicklung wichtiger Branchen", "next": "dirigisme" },
+        { "text": "Institutionelle Lohn- und Preisabkommen zwischen Staat, Unternehmen und Gewerkschaften", "next": "neo_corporatism" }
+      ]
+    },
+    {
+      "id": "e_social_1",
+      "text": "Wer sollte die souveräne Kontrolle über sozialisiertes Produktivvermögen haben?",
+      "options": [
+        { "text": "Der Staat als zentrale Vertretung der Gesellschaft", "next": "e_social_state" },
+        { "text": "Arbeitende Menschen und lokale Gemeinschaften, die von unten organisiert werden", "next": "e_social_worker" }
+      ]
+    },
+    {
+      "id": "e_social_state",
+      "text": "Welche Hauptfunktion haben staatliche Unternehmen?",
+      "options": [
+        { "text": "Kommerziell auf dem Weltmarkt zu agieren, um Staatseinnahmen und geopolitische Macht zu maximieren", "next": "state_capitalism" },
+        { "text": "Direkt für den menschlichen Bedarf nach öffentlicher Planung zu produzieren und den Profitorientierung ganz zu beseitigen", "next": "state_socialism" }
+      ]
+    },
+    {
+      "id": "e_social_worker",
+      "text": "Wie sollte die arbeitnehmergeführte Produktion organisiert werden?",
+      "options": [
+        { "text": "Arbeitnehmergenossenschaften, die im offenen Marktsystem konkurrieren und handeln", "next": "market_socialism" },
+        { "text": "Freiwillige, abgeschlossene moralische Gemeinschaften außerhalb des Mainstreams", "next": "utopian_socialism" },
+        { "text": "Dezentrale Gewerkschaftsföderationen oder die unmittelbare Abschaffung des Marktaustauschs", "next": "e_social_nonmarket" }
+      ]
+    },
+    {
+      "id": "e_social_nonmarket",
+      "text": "Welches System sollte die Marktwirtschaft ersetzen?",
+      "options": [
+        { "text": "Die unmittelbare Abschaffung von Geld, Löhnen, Buchhaltung und Wertform", "next": "communization" },
+        { "text": "Direkter 'Arbeit gegen Arbeit'-Austausch und gegenseitiger Kredit zwischen Produzenten", "next": "mutualism" },
+        { "text": "Demokratische Gewerkschaftsföderationen, die jeden Industriezweig leiten", "next": "syndicalism" },
+        { "text": "Halbautonome Handwerksgilden, die berufliche Standards und öffentlichen Bedarf ausbalancieren", "next": "guild_socialism" },
+        { "text": "Dezentrale lokale Kommunen mit Fokus auf persönliche Freiheit und freiwillige Kooperation", "next": "free_socialism" }
+      ]
+    },
+    {
+      "id": "e_alt_1",
+      "text": "Welches alternative Modell sollte Eigentum und Wirtschaft regeln?",
+      "options": [
+        { "text": "Breite Verteilung von kleinem Privatbesitz an Familien und Einzelpersonen", "next": "e_distrib_split" },
+        { "text": "Eingliederung der Gesellschaft in staatlich verankerte industrielle und berufliche Korporationen", "next": "e_corporatist_split" },
+        { "text": "Eine traditionelle agrarische Hierarchie, die von Gewohnheitsrechten des Landes und persönlichen Loyalitäten geprägt ist", "next": "feudalism" }
+      ]
+    },
+    {
+      "id": "e_distrib_split",
+      "text": "Wie sollte die breite Verteilung von Eigentum erreicht und gesichert werden?",
+      "options": [
+        { "text": "Durch linke oder genossenschaftliche Ansätze (Bauernlandwirtschaft, Antimonopolgesetze, gegenseitiger Kredit)", "next": "e_distrib_left" },
+        { "text": "Durch marktorientierte oder dezentralistische Ansätze (Subsidiarität, Vertragsfreiheit, kleine Unternehmen)", "next": "e_distrib_right" }
+      ]
+    },
+    {
+      "id": "e_distrib_left",
+      "text": "Welche Institution sollte diese genossenschaftliche Verteilung von Eigentum tragen?",
+      "options": [
+        { "text": "Die Wirtschaft auf kleine Bauernbetriebe und kollektiven Landzugang ausrichten", "next": "agrarian_socialism" },
+        { "text": "Aggressive staatliche Intervention und progressive Steuergesetze nutzen, um konzentriertes Kapital zu brechen", "next": "social_distributism" },
+        { "text": "Sich auf gegenseitige Hilfsbanken, lokale Kreditgenossenschaften und freiwillige Kooperationen verlassen", "next": "mutual_distributism" }
+      ]
+    },
+    {
+      "id": "e_distrib_right",
+      "text": "Wie sollte kleinräumiges, marktorientiertes Eigentum erhalten werden?",
+      "options": [
+        { "text": "Familienbetriebe und Regionalismus nach dem Prinzip der Subsidiarität fördern", "next": "distributism" },
+        { "text": "Sich auf völlig ungehinderte freie Märkte und freiwillige Verträge ohne staatlichen Eingriff verlassen", "next": "free_market_distributism" }
+      ]
+    },
+    {
+      "id": "e_corporatist_split",
+      "text": "Was ist das Hauptziel, Industrie in staatlich koordinierte Strukturen zu organisieren?",
+      "options": [
+        { "text": "Alle Klassen- und Wirtschaftsinteressen dem Nationalstaat unterzuordnen", "next": "corporatism" },
+        { "text": "Statutäre Macht und Vertretung für Arbeitersyndikate innerhalb staatlicher Institutionen sichern", "next": "social_corporatism" },
+        { "text": "Unternehmensweite Gewerkschaften schaffen, die mit der Geschäftsführung für Gewinnbeteiligung und Arbeitsfrieden zusammenarbeiten", "next": "yellow_socialism" },
+        { "text": "Direkte Verwaltung des nationalen Reichtums, um die Staatskasse zu maximieren", "next": "cameralism" }
+      ]
+    },
+    { "id": "social_market" },
+    { "id": "rhine_capitalism" },
+    { "id": "paternalistic_capitalism" },
+    { "id": "social_solidarity_economy" },
+    { "id": "ordnungspolitik" },
+    { "id": "residualism" },
+    { "id": "basic_income_capitalism" },
+    { "id": "laissez_faire" },
+    { "id": "countereconomics" },
+    { "id": "state_capitalism" },
+    { "id": "state_socialism" },
+    { "id": "dirigisme" },
+    { "id": "keynesianism" },
+    { "id": "third_way" },
+    { "id": "neo_corporatism" },
+    { "id": "corporatism" },
+    { "id": "social_corporatism" },
+    { "id": "yellow_socialism" },
+    { "id": "mutualism" },
+    { "id": "guild_socialism" },
+    { "id": "syndicalism" },
+    { "id": "market_socialism" },
+    { "id": "free_socialism" },
+    { "id": "communization" },
+    { "id": "utopian_socialism" },
+    { "id": "mutual_distributism" },
+    { "id": "social_distributism" },
+    { "id": "agrarian_socialism" },
+    { "id": "distributism" },
+    { "id": "feudalism" },
+    { "id": "cameralism" },
+    { "id": "free_market_distributism" }
+  ],
+  "resource_management": [
+    {
+      "id": "r1",
+      "text": "Wie sollte die Gesellschaft die Finanzierung öffentlicher Bedürfnisse und die Verteilung gemeinsamen Reichtums organisieren?",
+      "options": [
+        {
+          "text": "Durch gesetzliche inländische Steuern auf wirtschaftliche Produktion (z. B. Einkommen, Unternehmensgewinne oder Kapital).",
+          "next": "r_production"
+        },
+        {
+          "text": "Indem die Steuerlast vor allem auf unbebauten Boden und wirtschaftliche Ressourcenrenten fällt.",
+          "next": "r_land"
+        },
+        {
+          "text": "Durch die Abschaffung der inländischen Einkommensteuer zugunsten von Konsum- oder Außenhandelsabgaben.",
+          "next": "r_non_income"
+        },
+        {
+          "text": "Durch die Abschaffung von Steuern und Lohnarbeit; sozialisiertes Eigentum, bei dem Reichtum direkt für den menschlichen Bedarf produziert und verteilt wird.",
+          "next": "collective_distribution"
+        },
+        {
+          "text": "Streng durch freiwillige Beiträge (Spenden, Lotterien oder Nutzungsgebühren); jede zwangsweise staatliche Abgabe ist in sich illegitim.",
+          "next": "Voluntaryism"
+        }
+      ]
+    },
+    {
+      "id": "r_production",
+      "text": "Wie sollte die Belastung durch Produktivitäts- und Einkommenssteuern in der Gesellschaft verteilt werden?",
+      "options": [
+        {
+          "text": "Ein flacher, einheitlicher Prozentsatz, der für alle gleich gilt, um die Marktnetzneutralität zu wahren.",
+          "next": "flat_taxation"
+        },
+        {
+          "text": "Eine gestaffelte progressive Skala, bei der die Beitragssätze mit Einkommen oder Vermögen steigen.",
+          "next": "Progressive_Taxation"
+        },
+        {
+          "text": "Konfiskatorische Höchstsätze (nahezu 100 %) auf extreme Einkommen, Privatvermögen oder Erbschaften, um wirtschaftliche Dynastien zu verhindern.",
+          "next": "Confiscatory_Taxation"
+        }
+      ]
+    },
+    {
+      "id": "r_land",
+      "text": "Wie absolut sollte die Abhängigkeit von der Grundwertsteuer sein?",
+      "options": [
+        {
+          "text": "Der unbebaute Bodenwert ist die alleinige Einnahmequelle des Staates und ersetzt alle Steuern auf Einkommen, Arbeit, Handel und Gebäude.",
+          "next": "lvt"
+        },
+        {
+          "text": "Die Grundwertsteuer bildet die Grundlage der Einnahmen, um Spekulation zu verhindern, ergänzt durch normale Steuern zur Finanzierung öffentlicher Dienste und Sozialleistungen.",
+          "next": "mixed_lvt"
+        }
+      ]
+    }
+  ]
+}
