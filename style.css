@@ -305,10 +305,55 @@ button:active {
 }
 
 #ideologies-container .values-flex-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr));
+    align-items: stretch;
+    gap: 16px;
+}
+
+.ideologies-list {
+    width: 100%;
+    margin-top: 32px;
+}
+
+#ideologies-container .label-bubble {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    width: 100%;
+    min-height: 184px;
+    margin: 0;
+    padding: 18px 16px;
+    border-radius: 16px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 1.35;
+    overflow-wrap: anywhere;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease;
+}
+
+#ideologies-container .label-bubble:hover {
+    transform: translateY(-4px);
+    filter: brightness(1.08);
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.28);
+}
+
+#ideologies-container .label-bubble:focus-visible {
+    outline: 3px solid var(--accent-primary);
+    outline-offset: 3px;
+}
+
+.ideology-icon {
+    display: block;
+    width: 96px;
+    height: 96px;
+    flex: 0 0 96px;
+    margin: 0;
+    object-fit: contain;
 }
 
 .main-results-wrapper {

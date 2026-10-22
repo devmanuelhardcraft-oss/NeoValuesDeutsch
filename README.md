@@ -10,18 +10,18 @@ NeovaluesDeutsch ist eine deutschsprachige, für Smartphone, Tablet und Desktop 
 - Übersicht der enthaltenen Werte und Ideologien mit Detailseiten
 - Anpassung an unterschiedliche Bildschirmgrößen
 - Hell- und Dunkelmodus
-- Als Progressive Web App (PWA) installierbar
-- Grundfunktionen können nach dem Laden dank Service Worker auch offline verfügbar sein
+- Als installierbare Web-App (PWA) nutzbar
+- Grundfunktionen sind nach dem Laden dank eines Hintergrunddienstes (Service Worker) auch ohne Internet verfügbar
 - Testergebnisse und gewähltes Design werden lokal im Browser gespeichert; die Ergebnisse werden nicht an einen Server gesendet
 
 ## Lokal starten
 
-Die Dateien dürfen für den Test nicht einfach per Doppelklick über `file://` geöffnet werden. Der Quiz-Fragebogen lädt eine JSON-Datei und die PWA verwendet einen Service Worker; beides benötigt `localhost` oder eine HTTPS-Adresse.
+Die Dateien dürfen für den Test nicht einfach per Doppelklick über `file://` geöffnet werden. Der Quiz-Fragebogen lädt eine JSON-Datei und die installierbare Web-App verwendet einen Hintergrunddienst (Service Worker); beides benötigt `localhost` oder eine HTTPS-Adresse.
 
 Mit Python:
 
 ```powershell
-cd "C:\Users\admin\Desktop\NeovaluesGermanFork\neovalues-main"
+cd "C:\Users\admin\Desktop\NeovaluesGermanFork\NeoValuesDeutsch"
 python -m http.server 8000
 ```
 
@@ -39,8 +39,8 @@ Es sind keine zusätzlichen Pakete oder ein Build-Schritt erforderlich.
 
 1. Erstelle auf GitHub ein Repository für das Projekt.
 2. Lade den gesamten Inhalt dieses Ordners in das Repository hoch. `index.html` muss im veröffentlichten Stammverzeichnis liegen; auch der Ordner `icons/` wird benötigt.
-3. Öffne im Repository **Settings → Pages**.
-4. Wähle unter **Build and deployment** die Bereitstellung aus dem Branch `main` und dem Ordner `/ (root)`.
+3. Öffne im Repository **Einstellungen → Pages**.
+4. Wähle unter **Erstellung und Bereitstellung** die Veröffentlichung aus dem Hauptzweig `main` und dem Stammverzeichnis (`/`).
 5. Öffne die angezeigte GitHub-Pages-Adresse. Die Veröffentlichung kann nach dem Speichern einige Minuten dauern.
 
 GitHub Pages stellt die Seite über HTTPS bereit. Das ist Voraussetzung dafür, dass der Service Worker außerhalb von `localhost` funktioniert.
@@ -50,7 +50,7 @@ GitHub Pages stellt die Seite über HTTPS bereit. Das ist Voraussetzung dafür, 
 Rufe die veröffentlichte HTTPS-Adresse auf:
 
 - **Android / Chrome oder Edge:** Browsermenü öffnen und **App installieren** oder **Zum Startbildschirm hinzufügen** auswählen.
-- **Desktop / Chrome oder Edge:** Installationssymbol in der Adressleiste oder **App installieren** im Browsermenü auswählen.
+- **Desktop-PC / Chrome oder Edge:** Installationssymbol in der Adressleiste oder **App installieren** im Browsermenü auswählen.
 - **iPhone / iPad:** In Safari **Teilen** öffnen und **Zum Home-Bildschirm** auswählen.
 
 Die Installationsoptionen hängen vom Betriebssystem und Browser ab. Bei Änderungen an den Dateien kann ein bereits installierter Service Worker noch eine ältere Version zwischenspeichern. Dann die Seite neu laden oder die Website-Daten im Browser löschen.
@@ -64,7 +64,7 @@ Die Installationsoptionen hängen vom Betriebssystem und Browser ab. Bei Änderu
 - `data.js`: Werte, Ideologien, Beschreibungen und Quellen
 - `style.css`, `theme.js`: Gestaltung, Designmodus und Service-Worker-Registrierung
 - `manifest.webmanifest`, `sw.js`, `icon.svg`: PWA-Metadaten, Offline-Cache und App-Symbol
-- `about.html`, `contact.html`, `privacy.html`, `impressum.html`, `support.html`: Informationen und Kontakt
+- `about.html`, `contact.html`, `privacy.html`, `impressum.html`, `support.html`: Informationen, Kontakt und Hilfe
 - `LICENSE`: Lizenztext des Originalprojekts
 
 ## Lizenz und Namensnennung

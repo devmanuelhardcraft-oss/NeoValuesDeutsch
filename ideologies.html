@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NeoValues - Alle Ideologien</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css?v=14">
     <link rel="icon" type="image/svg" href="icon.svg">
     <script src="theme.js"></script>
 </head>
@@ -23,6 +23,46 @@
     <script src="data.js"></script>
     <script>
         const container = document.getElementById('ideologies-container');
+        container.className = 'ideologies-list';
+
+        const ideologySignatures = {};
+        Object.values(ideologyGroups).flat().forEach(name => {
+            const signature = Object.keys(labelMapping)
+                .filter(key => labelMapping[key] === name)
+                .sort((a, b) => b.split('|').length - a.split('|').length)[0];
+            if (signature) ideologySignatures[name] = signature.split('|');
+        });
+
+        const traitFrequency = {};
+        Object.values(ideologySignatures).forEach(traits => {
+            traits.forEach(trait => {
+                traitFrequency[trait] = (traitFrequency[trait] || 0) + 1;
+            });
+        });
+
+        function getIdeologyIcon(name) {
+            const signature = ideologySignatures[name];
+            if (!signature) {
+                if (name === 'Soylentism') {
+                    return {
+                        src: 'icons/social_control/totalism.svg',
+                        label: resultsMapping.social_control.totalism
+                    };
+                }
+                return null;
+            }
+
+            const trait = signature
+                .filter(id => Object.keys(resultsMapping).some(category => resultsMapping[category][id]))
+                .sort((a, b) => traitFrequency[a] - traitFrequency[b])[0];
+            if (!trait) return null;
+
+            const category = Object.keys(resultsMapping)
+                .find(group => resultsMapping[group][trait]);
+            return category
+                ? { src: `icons/${category}/${trait}.svg`, label: resultsMapping[category][trait] }
+                : null;
+        }
 
         for (const groupName in ideologyGroups) {
             const section = document.createElement('div');
@@ -40,13 +80,19 @@
                 const bubble = document.createElement('a');
                 bubble.className = 'label-bubble';
                 bubble.href = `description.html?id=${encodeURIComponent(name)}&type=ideology`;
-                bubble.innerText = name;
-                
-                bubble.style.backgroundColor = labelColors[name] || "#7a7a7a";
-                bubble.style.textDecoration = 'none';
-                bubble.style.fontSize = "1.1rem";
-                bubble.style.margin = "8px";
-                bubble.style.padding = "10px 25px";
+                bubble.innerText = displayIdeologyName(name);
+
+                const icon = getIdeologyIcon(name);
+                if (icon) {
+                    const img = document.createElement('img');
+                    img.className = 'ideology-icon';
+                    img.src = icon.src;
+                    img.alt = icon.label;
+                    img.title = `Prägendes Merkmal: ${icon.label}`;
+                    bubble.prepend(img);
+                }
+
+                bubble.style.backgroundColor = labelColors[name] || '#7a7a7a';
 
                 flexContainer.appendChild(bubble);
             });

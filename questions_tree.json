@@ -5,7 +5,7 @@
       "text": "Was sollte die Grundlage der Wirtschaft sein?",
       "options": [
         {
-          "text": "Eine Markt- oder Mischwirtschaft: private Unternehmen, die frei handeln oder zusammen mit staatlicher Regulierung, öffentlichen Dienstleistungen und Sozialleistungen arbeiten",
+          "text": "Eine Markt- oder Mischwirtschaft, in der Unternehmen weitgehend frei handeln oder der Staat den Markt reguliert und öffentliche Leistungen bereitstellt.",
           "next": "e_market_1"
         },
         {
@@ -13,7 +13,7 @@
           "next": "e_social_1"
         },
         {
-          "text": "Nichtkapitalistische, nichtsozialistische Alternativen: staatlich verankerte Korporatismen, handwerkliches Distributismus oder feudale Landhierarchie",
+          "text": "Nichtkapitalistische und nichtsozialistische Alternativen: staatlich gelenkter Korporatismus, handwerklicher Distributismus oder eine feudale Grundherrschaft.",
           "next": "e_alt_1"
         }
       ]
@@ -27,7 +27,7 @@
           "next": "e_market_free"
         },
         {
-          "text": "Eine Mischwirtschaft, die private Unternehmen mit staatlicher Aufsicht und Investitionen verbindet",
+          "text": "Eine Mischwirtschaft, in der private Unternehmen tätig sind und der Staat den Markt beaufsichtigt und gezielt investiert.",
           "next": "e_market_mixed"
         }
       ]
@@ -55,7 +55,7 @@
           "next": "e_market_welfare"
         },
         {
-          "text": "Förderung von Beschäftigung, wirtschaftlicher Stabilität und öffentlich-private Innovation",
+          "text": "Beschäftigung und wirtschaftliche Stabilität fördern sowie Innovation durch Zusammenarbeit von Staat und Unternehmen ermöglichen.",
           "next": "e_market_macro"
         },
         {
@@ -73,7 +73,7 @@
           "next": "e_social_universal"
         },
         {
-          "text": "Ein leichterer Sozialstaat mit Fokus auf die Grundsicherung, niedrigen Steuern und wettbewerbsfähigen Märkten",
+          "text": "Ein schlankerer Sozialstaat, der sich auf eine Grundsicherung beschränkt und niedrige Steuern sowie starken Wettbewerb anstrebt.",
           "next": "e_social_targeted"
         }
       ]
@@ -91,7 +91,7 @@
           "next": "rhine_capitalism"
         },
         {
-          "text": "Private Unternehmen erhalten, aber Arbeitgebern und dem Staat eine fürsorgliche Pflicht auferlegen, damit die Sicherheit der Arbeitnehmer, Familien und soziale Harmonie geschützt sind.",
+          "text": "Private Unternehmen beibehalten und zugleich Arbeitgeber sowie Staat in die Pflicht nehmen, Beschäftigte und Familien zu schützen und den sozialen Zusammenhalt zu stärken.",
           "next": "paternalistic_capitalism"
         },
         {
@@ -127,7 +127,7 @@
           "next": "keynesianism"
         },
         {
-          "text": "Öffentlich-private Partnerschaften, Weiterbildung und marktorientierte Flexibilität",
+          "text": "Zusammenarbeit zwischen Staat und Unternehmen, berufliche Weiterbildung und flexible Märkte",
           "next": "third_way"
         }
       ]
@@ -433,7 +433,7 @@
       "text": "Wie sollte die Belastung durch Produktivitäts- und Einkommenssteuern in der Gesellschaft verteilt werden?",
       "options": [
         {
-          "text": "Ein flacher, einheitlicher Prozentsatz, der für alle gleich gilt, um die Marktnetzneutralität zu wahren.",
+          "text": "Ein einheitlicher Steuersatz für alle, damit die Besteuerung den Wettbewerb möglichst wenig verzerrt.",
           "next": "flat_taxation"
         },
         {
@@ -448,28 +448,28 @@
     },
     {
       "id": "r_land",
-      "text": "Wie absolut sollte die Abhängigkeit von der Grundwertsteuer sein?",
+      "text": "Sollte die Bodenwertsteuer die einzige Einnahmequelle des Staates sein oder durch andere Steuern ergänzt werden?",
       "options": [
         {
-          "text": "Der unbebaute Bodenwert ist die alleinige Einnahmequelle des Staates und ersetzt alle Steuern auf Einkommen, Arbeit, Handel und Gebäude.",
+          "text": "Der Bodenwert ist die einzige Einnahmequelle des Staates. Steuern auf Einkommen, Arbeit, Handel und Gebäude entfallen.",
           "next": "lvt"
         },
         {
-          "text": "Die Grundwertsteuer bildet die Grundlage der Einnahmen, um Spekulation zu verhindern, ergänzt durch normale Steuern zur Finanzierung öffentlicher Dienste und Sozialleistungen.",
+          "text": "Die Bodenwertsteuer bildet die wichtigste Einnahmequelle und soll Spekulation verhindern. Weitere Steuern finanzieren öffentliche Leistungen und soziale Sicherung.",
           "next": "mixed_lvt"
         }
       ]
     },
     {
       "id": "r_non_income",
-      "text": "What non-income mechanism should fund the state without taxing labor and investment?",
+      "text": "Welcher nicht einkommensbezogene Mechanismus sollte den Staat finanzieren, ohne Arbeit und Investitionen zu besteuern?",
       "options": [
         {
-          "text": "A single, uniform national consumption tax on all final goods, eliminating income, corporate, and payroll taxes.",
+          "text": "Eine einheitliche nationale Verbrauchsteuer auf alle Endprodukte, die Einkommen-, Unternehmens- und Lohnsteuern ersetzt.",
           "next": "fair_tax"
         },
         {
-          "text": "Protective import tariffs, customs duties, and foreign trade levies, eliminating direct domestic taxation on citizens.",
+          "text": "Staatseinnahmen vor allem durch Schutzzölle und andere Abgaben auf Einfuhren erzielen, statt Bürger im Inland direkt zu besteuern.",
           "next": "tariff_funding"
         }
       ]
@@ -505,140 +505,140 @@
   "culture": [
     {
       "id": "c1",
-      "text": "What fundamental attitude should society take toward cultural heritage, modern values, and social change?",
+      "text": "Welche grundlegende Haltung sollte die Gesellschaft gegenüber kulturellem Erbe, modernen Werten und sozialem Wandel einnehmen?",
       "options": [
         {
-          "text": "Embrace social progress: reform outdated cultural norms, expand individual liberty, and advance equality through reason.",
+          "text": "Gesellschaftlichen Fortschritt fördern: Überholte kulturelle Normen erneuern, persönliche Freiheit stärken und Gleichberechtigung durch vernunftgeleitete Reformen voranbringen.",
           "next": "c_prog_1"
         },
         {
-          "text": "Preserve institutional continuity: safeguard proven historical customs, constitutional order, and prudent stability.",
+          "text": "Institutionelle Kontinuität bewahren: Bewährte historische Bräuche, die Verfassungsordnung und umsichtig gewahrte Stabilität schützen.",
           "next": "c_con_1"
         },
         {
-          "text": "Resist modern decay: secular liberal modernity is spiritually hollow or degenerate; society must return to sacred or traditional foundations.",
+          "text": "Dem modernen Verfall entgegentreten: Die säkular-liberale Moderne gilt als geistig leer oder zersetzend; die Gesellschaft soll sich wieder an religiösen oder traditionellen Werten orientieren.",
           "next": "c_trad_1"
         }
       ]
     },
     {
       "id": "c_prog_1",
-      "text": "What is the primary objective of cultural progress and social reform?",
+      "text": "Was ist das wichtigste Ziel kulturellen Fortschritts und gesellschaftlicher Reformen?",
       "options": [
         {
-          "text": "Protecting equal civic rights, freedom of conscience, and strict legal neutrality for every individual.",
+          "text": "Gleiche Bürgerrechte, Gewissensfreiheit und die Gleichbehandlung aller Menschen vor dem Gesetz schützen.",
           "next": "civil_liberalism"
         },
         {
-          "text": "Maximizing personal lifestyle freedom, enabling individuals to live and express themselves free from traditional taboos.",
+          "text": "Die persönliche Freiheit im Alltag stärken, damit alle Menschen ohne traditionelle Tabus leben und sich ausdrücken können.",
           "next": "progressivism"
         },
         {
-          "text": "Actively dismantling systemic prejudice, historical privilege, and cultural hierarchies to achieve social equity.",
+          "text": "Strukturelle Vorurteile, historisch gewachsene Privilegien und kulturelle Hierarchien gezielt abbauen, um mehr soziale Gerechtigkeit zu erreichen.",
           "next": "social_progressivism"
         },
         {
-          "text": "Radical deconstruction: rejecting all grand narratives of 'progress' or 'truth'—cultural norms are arbitrary power constructs to be dismantled.",
+          "text": "Alle festen Vorstellungen von „Fortschritt“ und „Wahrheit“ hinterfragen und kulturelle Normen als Machtverhältnisse verstehen, die verändert werden können.",
           "next": "postmodernism"
         }
       ]
     },
     {
       "id": "c_con_1",
-      "text": "How should conservative governance balance cultural continuity with social change and individual liberty?",
+      "text": "Wie sollte eine konservative Politik kulturelle Kontinuität, gesellschaftlichen Wandel und persönliche Freiheit miteinander vereinbaren?",
       "options": [
         {
-          "text": "Defend established national culture, civic customs, and institutional stability as the bedrock of society.",
+          "text": "Die gewachsene nationale Kultur, gesellschaftliche Bräuche und stabile Institutionen als Fundament der Gesellschaft bewahren.",
           "next": "conservatism"
         },
         {
-          "text": "Prudently adapt to necessary social and cultural evolutions while anchoring society in established historical institutions.",
+          "text": "Notwendige gesellschaftliche und kulturelle Veränderungen umsichtig angehen und zugleich an bewährten Institutionen festhalten.",
           "next": "progressive_conservatism"
         },
         {
-          "text": "Synthesize cultural continuity and moral order with personal autonomy and individual liberties.",
+          "text": "Kulturelle Kontinuität und moralische Ordnung mit persönlicher Selbstbestimmung und individuellen Freiheiten verbinden.",
           "next": "c_con_lib_split"
         }
       ]
     },
     {
       "id": "c_con_lib_split",
-      "text": "Which principle anchors this synthesis of liberty and conservative values?",
+      "text": "Welches Prinzip steht bei dieser Verbindung von Freiheit und konservativen Werten im Mittelpunkt?",
       "options": [
         {
-          "text": "Moral foundations: family, faith, and institutional continuity are primary, with personal liberties exercised within an orderly social fabric.",
+          "text": "Moralische Grundlagen: Familie, Glaube und der Erhalt bewährter Institutionen haben Vorrang. Persönliche Freiheiten werden in einer geordneten Gesellschaft ausgeübt.",
           "next": "liberal_conservatism"
         },
         {
-          "text": "Individual liberty: personal autonomy, civil liberties, and free expression are society's highest heritage, keeping state moralism minimal.",
+          "text": "Individuelle Freiheit: Selbstbestimmung, Bürgerrechte und freie Meinungsäußerung sind besonders wichtig. Der Staat soll möglichst wenige moralische Vorschriften machen.",
           "next": "conservative_liberalism"
         }
       ]
     },
     {
       "id": "c_trad_1",
-      "text": "On what foundation should society resist modern secular degeneration and preserve rooted order?",
+      "text": "Woran sollte sich die Gesellschaft orientieren, um der säkularen Moderne entgegenzutreten und eine feste Ordnung zu bewahren?",
       "options": [
         {
-          "text": "Rooted ancestral customs, local community obligations, and regional heritage.",
+          "text": "Verwurzelte Bräuche der Vorfahren, Pflichten gegenüber der örtlichen Gemeinschaft und regionales Erbe.",
           "next": "c_trad_organic"
         },
         {
-          "text": "Sacred scripture, divine law, and transcendent metaphysical truths.",
+          "text": "Heilige Schriften, göttliches Recht und über die Welt hinausweisende metaphysische Wahrheiten.",
           "next": "c_trad_spiritual"
         },
         {
-          "text": "A radical counter-revolution: overturning modern democratic decay through pre-modern restoration or modern techno-traditional syntheses.",
+          "text": "Ein radikaler Gegenentwurf: dem vermeintlichen Niedergang der modernen Demokratie durch eine Rückkehr zu früheren Verhältnissen oder durch die Verbindung von Tradition und moderner Technik begegnen.",
           "next": "c_trad_counter"
         }
       ]
     },
     {
       "id": "c_trad_organic",
-      "text": "What should anchor this rooted, traditional way of life?",
+      "text": "Was sollte dieser verwurzelten, traditionellen Lebensweise Halt geben?",
       "options": [
         {
-          "text": "An organic moral order rooted in natural law, local piety, family continuity, and rooted communal bonds.",
+          "text": "Eine organisch gewachsene moralische Ordnung, gegründet auf Naturrecht, örtlicher Frömmigkeit, familiärer Kontinuität und festen Gemeinschaftsbindungen.",
           "next": "traditionalist_conservatism"
         },
         {
-          "text": "Defending historic national identity, regional distinctiveness, and traditional morality against globalist homogenization.",
+          "text": "Die historische nationale Identität, regionale Eigenheiten und traditionelle Moralvorstellungen vor einer Vereinheitlichung durch die Globalisierung bewahren.",
           "next": "paleoconservatism"
         }
       ]
     },
     {
       "id": "c_trad_spiritual",
-      "text": "What sacred foundation should guide culture and moral life?",
+      "text": "Welche religiöse Grundlage sollte Kultur und Moral prägen?",
       "options": [
         {
-          "text": "Living strictly by established religious faith, sacred scriptures, and traditional moral teachings.",
+          "text": "Das Leben am überlieferten Glauben, an heiligen Schriften und an traditionellen moralischen Lehren ausrichten.",
           "next": "religious_traditionalism"
         },
         {
-          "text": "Reviving a timeless spiritual wisdom and sacred metaphysical order shared across ancient civilizations.",
+          "text": "Eine zeitlose spirituelle Weisheit und eine heilige metaphysische Ordnung wiederbeleben, die den alten Kulturen gemeinsam waren.",
           "next": "perennial_traditionalism"
         }
       ]
     },
     {
       "id": "c_trad_counter",
-      "text": "How should culture challenge liberal modernity and reshape society's worldview?",
+      "text": "Wie sollte die Kultur die liberale Moderne infrage stellen und das Weltbild der Gesellschaft verändern?",
       "options": [
         {
-          "text": "Turn the clock back, reject Enlightenment ideas and return to pre-modern cultural norms, virtues, and social roles.",
+          "text": "Zu vormodernen Normen und gesellschaftlichen Rollen zurückkehren und die Ideen der Aufklärung zurückweisen.",
           "next": "reactionaryism"
         },
         {
-          "text": "Reject egalitarian illusions, recognize natural human hierarchy and dismantle modern progressive cultural orthodoxies.",
+          "text": "Egalitäre Illusionen zurückweisen, eine natürliche menschliche Hierarchie anerkennen und moderne progressive kulturelle Lehrsätze aufbrechen.",
           "next": "neoreactionaryism"
         },
         {
-          "text": "Fuse romantic folklore, ancestral spirit, and heroic national culture with high technology.",
+          "text": "Romantische Folklore, den Geist der Vorfahren und eine heroische nationale Kultur mit Hochtechnologie verbinden.",
           "next": "reactionary_modernism"
         },
         {
-          "text": "Forge a dynamic alternative: build a revolutionary, avant-garde pathway to modernity that breaks completely with liberal-bourgeois culture.",
+          "text": "Einen revolutionären, neuen Weg in die Moderne einschlagen, der sich vollständig von der liberal-bürgerlichen Kultur abwendet.",
           "next": "alternative_modernism"
         }
       ]
@@ -695,176 +695,176 @@
   "authority": [
     {
       "id": "a1",
-      "text": "What is the legitimate scope of political authority over the individual?",
+      "text": "Wie weit darf der Staat rechtmäßig über das Leben des Einzelnen bestimmen?",
       "options": [
         {
-          "text": "The state is a necessary, sovereign institution required to maintain order, administer law, and govern society.",
+          "text": "Der Staat ist notwendig, um für Ordnung zu sorgen, Gesetze durchzusetzen und das Gemeinwesen zu verwalten.",
           "next": "a_gov_model"
         },
         {
-          "text": "The state's authority must be strictly confined to a minimal night-watchman role (protecting life, property, and contracts).",
+          "text": "Die staatliche Macht soll auf einen Minimalstaat begrenzt bleiben, der Menschen, Eigentum und Verträge schützt.",
           "next": "minarchism"
         },
         {
-          "text": "The state has no legitimate authority; society must be entirely stateless and voluntary.",
+          "text": "Der Staat hat keine legitime Macht. Die Gesellschaft soll ohne Staat und auf Grundlage freiwilliger Zusammenarbeit organisiert sein.",
           "next": "a_stateless"
         }
       ]
     },
     {
       "id": "a_stateless",
-      "text": "In a stateless society, how should social order and coordination be maintained?",
+      "text": "Wie sollten in einer staatslosen Gesellschaft soziale Ordnung und Zusammenarbeit gewährleistet werden?",
       "options": [
         {
-          "text": "Through completely horizontal, decentralized self-management without any rulers or hierarchy.",
+          "text": "Durch dezentrale Selbstverwaltung, in der alle gleichberechtigt sind und es weder Herrschende noch Hierarchien gibt.",
           "next": "anarchism"
         },
         {
-          "text": "Under a symbolic, non-governing monarch whose sole function is to defend liberty and prevent the rise of a new state.",
+          "text": "Unter einem Monarchen ohne eigene Regierungsgewalt, der symbolisch die Freiheit schützt und verhindern soll, dass ein neuer Staat entsteht.",
           "next": "anarcho_monarchism"
         }
       ]
     },
     {
       "id": "a_gov_model",
-      "text": "Where should sovereign decision-making power ultimately reside?",
+      "text": "Wer sollte letztlich die höchste politische Entscheidungsgewalt haben?",
       "options": [
         {
-          "text": "In the citizenry bodies.",
+          "text": "Bei den Bürgerinnen und Bürgern.",
           "next": "a_popular"
         },
         {
-          "text": "In a distinguished elite or capable leadership class selected by merit, expertise, or duty.",
+          "text": "Bei einer Führungsschicht, die nach Leistung, Fachkenntnis oder Pflichtbewusstsein ausgewählt wird.",
           "next": "a_elite"
         },
         {
-          "text": "In a concentrated supreme leader, executive authority, or governing corporate body.",
+          "text": "Bei einer mächtigen Einzelperson, einer zentralen Regierung oder der Leitung eines Unternehmensstaates.",
           "next": "a_concentrated"
         }
       ]
     },
     {
       "id": "a_popular",
-      "text": "Through what mechanism should citizens exercise constitutional sovereignty?",
+      "text": "Wie sollten Bürgerinnen und Bürger ihre verfassungsmäßigen Mitbestimmungsrechte ausüben?",
       "options": [
         {
-          "text": "Through representative institutions and parliamentary governance where elected officials legislate on behalf of the public.",
+          "text": "Durch ein Parlament, in dem gewählte Abgeordnete die Bevölkerung vertreten und Gesetze beschließen.",
           "next": "a_parliamentary"
         },
         {
-          "text": "Through direct democracy, where citizens make decisions directly via referendums, councils, or popular assemblies.",
+          "text": "Durch direkte Demokratie: Bürgerinnen und Bürger entscheiden selbst, etwa bei Volksabstimmungen, in Räten oder auf Bürgerversammlungen.",
           "next": "a_direct"
         }
       ]
     },
     {
       "id": "a_parliamentary",
-      "text": "How should this representative parliamentary system be organized?",
+      "text": "Wie sollte dieses repräsentative parlamentarische System organisiert sein?",
       "options": [
         {
-          "text": "Citizens elect representatives to debate and enact legislation within a constitutional republic.",
+          "text": "Die Bürgerinnen und Bürger wählen Abgeordnete, die in einer Republik Gesetze beraten und beschließen.",
           "next": "representative_democracy"
         },
         {
-          "text": "An elected parliament shares authority with a hereditary monarch bound by constitutional law.",
+          "text": "Ein gewähltes Parlament teilt sich die Macht mit einem erblichen Monarchen, dessen Befugnisse durch die Verfassung begrenzt sind.",
           "next": "constitutional"
         }
       ]
     },
     {
       "id": "a_direct",
-      "text": "What form should this direct democratic governance take?",
+      "text": "Wie sollte diese direkte Demokratie gestaltet sein?",
       "options": [
         {
-          "text": "Citizens decide policy directly through popular initiatives, referendums, and ballot measures.",
+          "text": "Die Bürgerinnen und Bürger gestalten die Politik unmittelbar durch Volksinitiativen und Abstimmungen.",
           "next": "referendum_democracy"
         },
         {
-          "text": "Power is vested in directly elected workers', peasants', or soldiers' councils.",
+          "text": "Die Macht liegt bei direkt gewählten Räten von Beschäftigten, Bauern oder Soldaten.",
           "next": "councilism"
         },
         {
-          "text": "Citizens govern directly through neighborhood and municipal popular assemblies that confederate regionally.",
+          "text": "Die Bürgerinnen und Bürger entscheiden direkt in Versammlungen ihrer Stadtteile und Gemeinden, die sich regional zusammenschließen.",
           "next": "communalism"
         },
         {
-          "text": "Governance is managed through digital platforms, open networks, and electronic direct democracy.",
+          "text": "Politische Entscheidungen werden über digitale Plattformen und offene Netzwerke direkt von den Bürgerinnen und Bürgern getroffen.",
           "next": "digital_democracy"
         }
       ]
     },
     {
       "id": "a_elite",
-      "text": "What qualification should grant this elite leadership class the right to govern?",
+      "text": "Welche Qualifikation sollte eine Führungsschicht dazu berechtigen, politische Verantwortung zu übernehmen?",
       "options": [
         {
-          "text": "Scientific expertise, engineering competence, and data-driven management.",
+          "text": "Wissenschaftliche Fachkenntnis, ingenieurtechnische Kompetenz und datenbasierte Verwaltung.",
           "next": "technocracy"
         },
         {
-          "text": "Demonstrated talent, individual achievement, and intellectual competence proven in fair competition.",
+          "text": "Nachgewiesenes Talent, persönliche Leistung und geistige Fähigkeiten, die sich in fairem Wettbewerb bewährt haben.",
           "next": "meritocracy"
         },
         {
-          "text": "Inherited noble birth, historical lineage, and rooted stewardship of society.",
+          "text": "Adlige Abstammung, eine lange Familientradition und übernommene Verantwortung für die Gesellschaft.",
           "next": "aristocracy"
         },
         {
-          "text": "Command within the military hierarchy, martial discipline, and strategic leadership.",
+          "text": "Führungserfahrung im Militär, militärische Disziplin und strategisches Geschick.",
           "next": "stratocracy"
         }
       ]
     },
     {
       "id": "a_concentrated",
-      "text": "What is the institutional basis of this centralized executive power?",
+      "text": "Auf welcher Grundlage sollte die gebündelte Macht der Regierung beruhen?",
       "options": [
         {
-          "text": "A sacred or hereditary mandate rooted in dynastic bloodline or religious law.",
+          "text": "Auf einem heiligen oder erblichen Herrschaftsanspruch, der aus einer Dynastie oder religiösem Recht abgeleitet wird.",
           "next": "a_trad_relig"
         },
         {
-          "text": "A modern political strongman, ideological vanguard, or centralized state apparatus.",
+          "text": "Auf einer mächtigen politischen Führungsperson, einer ideologischen Vorhut oder einem zentralisierten Staatsapparat.",
           "next": "a_secular_auth"
         },
         {
-          "text": "A joint-stock enterprise where governance is managed by an appointed CEO and board of directors.",
+          "text": "Auf einem Aktienunternehmen, das von einem ernannten Vorstandsvorsitzenden und einem Aufsichtsrat geleitet wird.",
           "next": "neocameralism"
         }
       ]
     },
     {
       "id": "a_trad_relig",
-      "text": "What is the nature of this traditional or religious sovereign authority?",
+      "text": "Wie wird diese traditionelle oder religiöse Herrschaft ausgeübt?",
       "options": [
         {
-          "text": "A hereditary monarch holding undivided autocratic power by dynastic right.",
+          "text": "Ein erblicher Monarch, der aufgrund seiner Abstammung uneingeschränkt allein herrscht.",
           "next": "absolute"
         },
         {
-          "text": "The state is governed directly by the clergy or priesthood administering sacred religious law.",
+          "text": "Der Staat wird unmittelbar von Geistlichen regiert, die das heilige Religionsrecht durchsetzen.",
           "next": "theocracy"
         },
         {
-          "text": "A secular ruler whose political authority is legitimized by enforcing and protecting religious orthodoxy.",
+          "text": "Ein weltlicher Herrscher, der seine Macht damit begründet, dass er die orthodoxe Auslegung einer Religion durchsetzt und schützt.",
           "next": "religious_authoritarianism"
         }
       ]
     },
     {
       "id": "a_secular_auth",
-      "text": "How should this centralized executive power be organized and wielded?",
+      "text": "Wie sollte diese gebündelte Regierungsgewalt organisiert und ausgeübt werden?",
       "options": [
         {
-          "text": "Through a single revolutionary vanguard party that directs the state and mobilizes the working class.",
+          "text": "Durch eine einzige revolutionäre Partei, die den Staat lenkt und die Arbeiterschaft mobilisiert.",
           "next": "partocracy"
         },
         {
-          "text": "Through a concentrated autocrat who exercises firm political control over the state apparatus.",
+          "text": "Durch einen Alleinherrscher, der den Staatsapparat fest unter seiner Kontrolle hält.",
           "next": "autocracy"
         },
         {
-          "text": "Through an ethical state that acts as the ultimate moral authority and spiritual organism uniting the nation.",
+          "text": "Durch einen ethischen Staat, der als oberste moralische Instanz und als geistiges Ganzes die Nation eint.",
           "next": "ethical_statism"
         }
       ]
@@ -933,104 +933,104 @@
   "nation": [
     {
       "id": "n1",
-      "text": "What should be the legitimate basis for defining borders, citizenship, and political community?",
+      "text": "Worauf sollten Grenzen, Staatsbürgerschaft und politische Gemeinschaft beruhen?",
       "options": [
         {
-          "text": "National borders and collective identity should be rejected in favor of personal autonomy or borderless universalism.",
+          "text": "Nationale Grenzen und kollektive Identität zugunsten persönlicher Selbstbestimmung oder einer grenzenlosen Weltgemeinschaft ablehnen.",
           "next": "n_anti_nation"
         },
         {
-          "text": "Belonging should be defined through shared values or local civic solidarity.",
+          "text": "Zugehörigkeit sollte auf gemeinsamen Werten oder dem Zusammenhalt vor Ort beruhen.",
           "next": "n_civic_cultural"
         },
         {
-          "text": "Belonging must be rooted in ancestral bloodlines, ethnic heritage, and biological lineage.",
+          "text": "Zugehörigkeit sollte sich aus Abstammung, ethnischer Herkunft und familiären Wurzeln ergeben.",
           "next": "n_ancestral"
         }
       ]
     },
     {
       "id": "n_anti_nation",
-      "text": "On what principle should society operate without national identity or state borders?",
+      "text": "Wie sollte eine Gesellschaft ohne nationale Identität und Staatsgrenzen organisiert sein?",
       "options": [
         {
-          "text": "Radical individual sovereignty: the nation is an oppressive abstraction ('spook'); individuals owe no allegiance to any collective and act purely on self-interest.",
+          "text": "Vorrang des Einzelnen: Die Nation gilt als künstliches und einengendes Konstrukt. Niemand soll einem Kollektiv verpflichtet sein, sondern nach eigenem Interesse handeln.",
           "next": "egoism"
         },
         {
-          "text": "Universal cosmopolitanism: all human beings belong to a single borderless global community with equal rights across the planet.",
+          "text": "Kosmopolitismus: Alle Menschen gehören zu einer grenzenlosen Weltgemeinschaft und sollen überall die gleichen Rechte haben.",
           "next": "Cosmopolitanism"
         }
       ]
     },
     {
       "id": "n_civic_cultural",
-      "text": "What is the primary anchor of this political and social cohesion?",
+      "text": "Was ist die wichtigste Grundlage dieses politischen und gesellschaftlichen Zusammenhalts?",
       "options": [
         {
-          "text": "Equal constitutional rights, the rule of law, and shared political citizenship regardless of ethnic origin.",
+          "text": "Gleiche Rechte, Rechtsstaatlichkeit und gemeinsame Staatsbürgerschaft – unabhängig von der ethnischen Herkunft.",
           "next": "civic_nationalism"
         },
         {
-          "text": "Belonging belongs to face-to-face neighborhoods, towns, and organic civic communities.",
+          "text": "Zugehörigkeit entsteht in der Nachbarschaft, in Städten und in gewachsenen Gemeinschaften vor Ort.",
           "next": "communitarianism"
         },
         {
-          "text": "A shared cultural, religious, or civilizational heritage.",
+          "text": "Ein gemeinsames kulturelles, religiöses oder zivilisatorisches Erbe.",
           "next": "n_heritage_basis"
         }
       ]
     },
     {
       "id": "n_heritage_basis",
-      "text": "What core foundation defines this shared cultural or civilizational sphere?",
+      "text": "Welche Gemeinsamkeit prägt diesen Kultur- oder Zivilisationsraum?",
       "options": [
         {
-          "text": "Shared language, historical customs, and institutional national culture.",
+          "text": "Eine gemeinsame Sprache, historische Bräuche und eine gefestigte nationale Kultur.",
           "next": "cultural_nationalism"
         },
         {
-          "text": "A common religious faith, theological heritage, and confessional moral unity.",
+          "text": "Ein gemeinsamer Glaube, religiöse Überlieferungen und gemeinsame moralische Vorstellungen.",
           "next": "religious_nationalism"
         },
         {
-          "text": "Living folklore, heroic national mythology, ancestral soul, and romantic national awakening.",
+          "text": "Lebendige Folklore, heroische nationale Mythen, die Seele der Vorfahren und ein romantisches nationales Erwachen.",
           "next": "romantic_nationalism"
         },
         {
-          "text": "An overarching civilizational sphere, cultural realm, or continental bloc bridging related peoples.",
+          "text": "Ein größerer Kultur- und Zivilisationsraum oder ein kontinentaler Zusammenschluss, der verwandte Völker verbindet.",
           "next": "civilizationism"
         }
       ]
     },
     {
       "id": "n_ancestral",
-      "text": "At what scale should shared ancestry and blood ties organize society?",
+      "text": "Auf welcher Ebene sollten gemeinsame Abstammung und verwandtschaftliche Bindungen die Gesellschaft prägen?",
       "options": [
         {
-          "text": "In organic, decentralized clans and close-knit local tribal kinship groups.",
+          "text": "In organisch gewachsenen, dezentralen Clans und eng verbundenen örtlichen Stammesgemeinschaften.",
           "next": "Tribalism"
         },
         {
-          "text": "In a sovereign nation-state centered on a distinct historical ethnic group tied to a homeland.",
+          "text": "In einem souveränen Nationalstaat, der sich um eine eigenständige historische Volksgruppe und ihr angestammtes Heimatland bildet.",
           "next": "ethnic_nationalism"
         },
         {
-          "text": "Across broader supra-national, continental, or racial collectives.",
+          "text": "In größeren übernationalen oder kontinentalen Gemeinschaften oder in Gruppen, die über eine gemeinsame „Rasse“ definiert werden.",
           "next": "n_macro_lineage"
         }
       ]
     },
     {
       "id": "n_macro_lineage",
-      "text": "How broad should this ancestral collective extend?",
+      "text": "Wie weit sollte diese auf gemeinsamer Abstammung beruhende Gemeinschaft reichen?",
       "options": [
         {
-          "text": "A pan-national federation or union uniting sister ethnic groups across state borders.",
+          "text": "In einem überstaatlichen Bund, der verwandte Volksgruppen über Staatsgrenzen hinweg vereint.",
           "next": "pan_nationalism"
         },
         {
-          "text": "The entire race as a single biological collective prioritizing racial solidarity and preservation.",
+          "text": "In einer als biologisch verstandenen „Rasse“, deren Zusammenhalt und Fortbestand im Mittelpunkt stehen.",
           "next": "racial_nationalism"
         }
       ]
@@ -1075,102 +1075,102 @@
   "foreign": [
     {
       "id": "f1",
-      "text": "What general orientation should our foreign policy pursue?",
+      "text": "Welche grundsätzliche Ausrichtung sollte unsere Außenpolitik verfolgen?",
       "options": [
         {
-          "text": "Avoid foreign entanglements and prioritize neutrality",
+          "text": "Verwicklungen im Ausland vermeiden und Neutralität in den Vordergrund stellen.",
           "next": "f_neutral"
         },
         {
-          "text": "Pursue national power and strategic self-interest",
+          "text": "Nationale Macht und strategische Eigeninteressen verfolgen.",
           "next": "f_power"
         },
         {
-          "text": "Foster international cooperation and global engagement",
+          "text": "Internationale Zusammenarbeit und weltweites Engagement fördern.",
           "next": "f_coop"
         }
       ]
     },
     {
       "id": "f_neutral",
-      "text": "How should our independence from foreign conflicts be maintained?",
+      "text": "Wie sollten wir uns aus Konflikten im Ausland heraushalten?",
       "options": [
         {
-          "text": "Sever all political, military, and significant economic ties",
+          "text": "Alle politischen, militärischen und wesentlichen wirtschaftlichen Verbindungen kappen.",
           "next": "Isolationism"
         },
         {
-          "text": "Trade and communicate peacefully while staying out of foreign wars",
+          "text": "Friedlich Handel treiben und diplomatische Beziehungen pflegen, ohne sich an Kriegen anderer Staaten zu beteiligen.",
           "next": "f_neutral_type"
         }
       ]
     },
     {
       "id": "f_neutral_type",
-      "text": "What should safeguard our neutrality?",
+      "text": "Wie sollte unsere Neutralität gesichert werden?",
       "options": [
         {
-          "text": "Strict diplomatic restraint and complete avoidance of foreign alliances",
+          "text": "Durch diplomatische Zurückhaltung und den Verzicht auf Bündnisse mit anderen Staaten.",
           "next": "Non_Interventionism"
         },
         {
-          "text": "A strong, well-armed national defense to deter any foreign aggression",
+          "text": "Durch eine starke Verteidigung, die Angriffe aus dem Ausland abschrecken soll.",
           "next": "armed_neutrality"
         }
       ]
     },
     {
       "id": "f_power",
-      "text": "How should our country exert influence on the world stage?",
+      "text": "Wie sollte unser Land auf der Weltbühne Einfluss ausüben?",
       "options": [
         {
-          "text": "By pragmatically balancing power and alliances to maximize national interest",
+          "text": "Indem es Machtverhältnisse und Bündnisse pragmatisch abwägt, um die nationalen Interessen bestmöglich zu wahren.",
           "next": "Realpolitik"
         },
         {
-          "text": "By expanding territorial control and dominating foreign resources",
+          "text": "Indem es seine territoriale Kontrolle ausweitet und Ressourcen im Ausland beherrscht.",
           "next": "Imperialism"
         }
       ]
     },
     {
       "id": "f_coop",
-      "text": "What is the primary aim of our global engagement?",
+      "text": "Welches Ziel sollte unser internationales Engagement vor allem verfolgen?",
       "options": [
         {
-          "text": "Maintaining international order, rights, and systemic integration",
+          "text": "Internationale Ordnung und Menschenrechte schützen und die Zusammenarbeit in internationalen Bündnissen stärken.",
           "next": "f_global_order"
         },
         {
-          "text": "Fostering mutual solidarity and partnership across borders",
+          "text": "Solidarität und partnerschaftliche Zusammenarbeit über Grenzen hinweg fördern.",
           "next": "f_solidarity"
         }
       ]
     },
     {
       "id": "f_global_order",
-      "text": "Through what mechanism should global order be maintained?",
+      "text": "Wie sollte die internationale Ordnung geschützt werden?",
       "options": [
         {
-          "text": "Proactively intervening abroad to stop bad actors and defend human rights",
+          "text": "Durch Eingriffe im Ausland, um Rechtsverletzungen zu beenden und Menschenrechte zu schützen.",
           "next": "Interventionism"
         },
         {
-          "text": "Integrating into a unified world system of open borders and supranational law",
+          "text": "Durch die Einbindung in ein gemeinsames Weltsystem mit offenen Grenzen und überstaatlichen Regeln.",
           "next": "Globalism"
         }
       ]
     },
     {
       "id": "f_solidarity",
-      "text": "How should international cooperation be structured?",
+      "text": "Wie sollte die internationale Zusammenarbeit gestaltet sein?",
       "options": [
         {
-          "text": "Multilateral diplomacy between sovereign, independent nation-states",
+          "text": "Durch Zusammenarbeit und Diplomatie zwischen unabhängigen Staaten.",
           "next": "Internationalism"
         },
         {
-          "text": "Worldwide grassroots solidarity opposing corporate globalization and exploitation",
+          "text": "Weltweite Solidarität von der Basis gegen die Globalisierung von Konzernen und Ausbeutung.",
           "next": "alter_globalism"
         }
       ]
@@ -1206,150 +1206,150 @@
   "technology": [
     {
       "id": "t1",
-      "text": "What direction should society take with technology and production?",
+      "text": "Welche Richtung sollte die Gesellschaft bei Technologie und Produktion einschlagen?",
       "options": [
         {
-          "text": "Step away from heavy machinery in favor of rural or low-tech living",
+          "text": "Auf schwere Maschinen weitgehend verzichten und stattdessen ländlich oder mit einfacher Technik leben.",
           "next": "t_rural"
         },
         {
-          "text": "Focus on standard manufacturing, digital services, and environmental balance",
+          "text": "Auf moderne Produktion und digitale Dienstleistungen setzen und dabei die Umwelt schützen.",
           "next": "t_standard"
         },
         {
-          "text": "Develop advanced technologies to reshape the future",
+          "text": "Fortschrittliche Technologien entwickeln, um die Zukunft neu zu gestalten.",
           "next": "t_future"
         }
       ]
     },
     {
       "id": "t_rural",
-      "text": "How should society live away from heavy machine industry?",
+      "text": "Wie sollte eine Gesellschaft ohne Schwerindustrie leben?",
       "options": [
         {
-          "text": "Build community life around farming, rural culture, and working the land",
+          "text": "Das Gemeinschaftsleben an Landwirtschaft, ländlicher Kultur und der Arbeit auf dem Land ausrichten.",
           "next": "agrarianism"
         },
         {
-          "text": "Rely on local artisan craft and hand tools while rejecting automation",
+          "text": "Auf ?rtliches Handwerk und einfache Werkzeuge setzen und Automatisierung ablehnen.",
           "next": "neoluddism"
         },
         {
-          "text": "Abandon civilization and farming entirely to return to hunter-gatherer life",
+          "text": "Zivilisation und Landwirtschaft vollständig aufgeben und wieder als Jäger und Sammler leben.",
           "next": "primitivism"
         }
       ]
     },
     {
       "id": "t_standard",
-      "text": "What should be the main priority for everyday industry and technology?",
+      "text": "Was sollte bei Industrie und Technik im Alltag im Mittelpunkt stehen?",
       "options": [
         {
-          "text": "Protecting natural habitats and balancing industrial activity with the environment",
+          "text": "Natürliche Lebensräume schützen und Industrie mit dem Umweltschutz in Einklang bringen.",
           "next": "t_eco"
         },
         {
-          "text": "Developing manufacturing, digital infrastructure, and practical everyday tools",
+          "text": "Produktion, digitale Infrastruktur und praktische Werkzeuge für den Alltag entwickeln.",
           "next": "t_production"
         }
       ]
     },
     {
       "id": "t_eco",
-      "text": "How should we maintain environmental balance?",
+      "text": "Wie sollten wir das ?kologische Gleichgewicht bewahren?",
       "options": [
         {
-          "text": "Set aside protected wilderness and strictly limit human development",
+          "text": "Geschützte Wildnisgebiete einrichten und menschliche Eingriffe streng begrenzen.",
           "next": "conservationism"
         },
         {
-          "text": "Regulate industry with renewable energy, recycling, and sustainable practices",
+          "text": "Die Industrie regulieren und auf erneuerbare Energien, Recycling und nachhaltige Verfahren setzen.",
           "next": "environmentalism"
         }
       ]
     },
     {
       "id": "t_production",
-      "text": "What kind of economy and tools should we focus on?",
+      "text": "Auf welche Wirtschaftsbereiche und technischen Hilfsmittel sollten wir uns konzentrieren?",
       "options": [
         {
-          "text": "Prioritize heavy manufacturing, factories, machine shops, and raw material extraction",
+          "text": "Schwere Industrie, Fabriken, Werkstätten und die Gewinnung von Rohstoffen priorisieren.",
           "next": "industrialism"
         },
         {
-          "text": "Shift away from heavy manufacturing toward an information, digital, and service economy",
+          "text": "Schwerindustrie zurückfahren und stattdessen Informations-, Digital- und Dienstleistungsbranchen ausbauen.",
           "next": "post_industrialism"
         },
         {
-          "text": "Treat technology simply as a neutral tool to solve practical everyday problems",
+          "text": "Technik als neutrales Werkzeug betrachten, das praktische Probleme im Alltag lösen kann.",
           "next": "instrumentalism"
         }
       ]
     },
     {
       "id": "t_future",
-      "text": "Where should advanced high-tech development be directed?",
+      "text": "Worauf sollte die Entwicklung fortschrittlicher Hochtechnologie ausgerichtet sein?",
       "options": [
         {
-          "text": "Restoring the biosphere, enhancing human biology, or surpassing physical limits",
+          "text": "Die Biosphäre wiederherstellen, den menschlichen Körper verbessern oder körperliche Grenzen überwinden.",
           "next": "t_future_bio_eco"
         },
         {
-          "text": "Automating all production to eliminate scarcity and expanding into space",
+          "text": "Die gesamte Produktion automatisieren, Knappheit beseitigen und den Weltraum erschließen.",
           "next": "t_mastery"
         },
         {
-          "text": "Unleashing technological acceleration as an unstoppable force beyond human control",
+          "text": "Die technologische Beschleunigung als unaufhaltsame Kraft entfesseln, die sich menschlicher Kontrolle entzieht.",
           "next": "t_runaway"
         }
       ]
     },
     {
       "id": "t_future_bio_eco",
-      "text": "How should advanced science transform living systems and the planet?",
+      "text": "Wie sollte moderne Wissenschaft mithilfe fortschrittlicher Technik Lebewesen und den Planeten verändern?",
       "options": [
         {
-          "text": "Use clean nuclear power, synthetic food, and compact cities so nature can rewild",
+          "text": "Kernenergie, künstlich hergestellte Lebensmittel und kompakte Städte nutzen, damit sich die Natur erholen kann.",
           "next": "ecomodernism"
         },
         {
-          "text": "Enhance human bodies and minds with cybernetics, gene editing, and extended lifespans",
+          "text": "Körper und Geist mithilfe von Kybernetik, Genetik und lebensverlängernden Technologien stärken.",
           "next": "transhumanism"
         },
         {
-          "text": "Leave biology behind entirely and upload human minds into synthetic superintelligence",
+          "text": "Die biologische Grundlage des Menschen hinter sich lassen und menschliches Bewusstsein in eine künstliche Superintelligenz übertragen.",
           "next": "posthumanism"
         },
         {
-          "text": "Deploy genetic engineering, geoengineering, and clean biotech to repair ecosystems",
+          "text": "Gentechnik, Geoengineering und umweltfreundliche Biotechnologie einsetzen, um ?kosysteme wiederherzustellen.",
           "next": "technogaianism"
         }
       ]
     },
     {
       "id": "t_mastery",
-      "text": "What is the ultimate goal of human technological mastery?",
+      "text": "Was ist das letztendliche Ziel technischer Beherrschung durch den Menschen?",
       "options": [
         {
-          "text": "Automate all production to eliminate scarcity and free humans from compulsory labor",
+          "text": "Die gesamte Produktion automatisieren, um Knappheit abzuschaffen und Menschen von verpflichtender Arbeit zu befreien.",
           "next": "prometheanism"
         },
         {
-          "text": "Expand endlessly across the solar system and maximize cosmic energy capture",
+          "text": "Den Weltraum immer weiter erschließen und möglichst viel Energie aus dem Kosmos gewinnen.",
           "next": "extropianism"
         }
       ]
     },
     {
       "id": "t_runaway",
-      "text": "How should we view runaway technological growth?",
+      "text": "Wie sollten wir mit einer scheinbar unaufhaltsamen technischen Entwicklung umgehen?",
       "options": [
         {
-          "text": "Speed up market competition and computing power so they outrun government regulation",
+          "text": "Wettbewerb und Rechenleistung so beschleunigen, dass sie staatlicher Regulierung vorauseilen.",
           "next": "technocapitalism"
         },
         {
-          "text": "Accept that technological acceleration is an unstoppable physical process that cannot be controlled",
+          "text": "Akzeptieren, dass die technische Entwicklung ein unaufhaltsamer Prozess ist, den Menschen nicht steuern können.",
           "next": "techno_fatalism"
         }
       ]
@@ -1406,78 +1406,78 @@
   "social_control": [
     {
       "id": "sc1",
-      "text": "What is the legitimate scope of state authority over an individual's private conduct, personal habits, and lifestyle?",
+      "text": "Wie weit darf der Staat in das Privatleben, die persönlichen Gewohnheiten und die Lebensweise eines Menschen eingreifen?",
       "options": [
         {
-          "text": "The state must not infringe on individual autonomy; private life and personal choices belong entirely to the individual.",
+          "text": "Der Staat darf die Selbstbestimmung nicht einschränken. Privatleben und persönliche Entscheidungen sind Sache jedes Einzelnen.",
           "next": "sc_liberty"
         },
         {
-          "text": "The state has a duty to guide, regulate, or direct personal behavior for public well-being, morality, or social order.",
+          "text": "Der Staat soll persönliches Verhalten lenken oder regulieren dürfen, wenn dies dem Gemeinwohl, der Moral oder der öffentlichen Ordnung dient.",
           "next": "sc_intervention"
         }
       ]
     },
     {
       "id": "sc_liberty",
-      "text": "What is the most important part of protecting personal freedom?",
+      "text": "Was ist beim Schutz der persönlichen Freiheit am wichtigsten?",
       "options": [
         {
-          "text": "Protecting constitutional rights—like free speech, privacy, and fair trials—while strictly limiting police and government surveillance.",
+          "text": "Grundrechte wie Meinungsfreiheit, Privatsphäre und faire Gerichtsverfahren schützen und zugleich Polizei und staatliche Überwachung streng begrenzen.",
           "next": "civil_libertarianism"
         },
         {
-          "text": "Total lifestyle freedom—the government should never police consensual adult choices, private habits, drugs, or personal vices.",
+          "text": "Die persönliche Lebensführung freilassen: Der Staat soll einvernehmliche Entscheidungen Erwachsener, private Gewohnheiten, Drogenkonsum und persönliche Laster nicht kontrollieren.",
           "next": "permissivism"
         }
       ]
     },
     {
       "id": "sc_intervention",
-      "text": "What is the primary objective of state intervention into personal conduct?",
+      "text": "Was sollte der Staat mit Eingriffen in das persönliche Verhalten erreichen?",
       "options": [
         {
-          "text": "Protecting public health, safety, and well-being through regulation and vice deterrents without criminalizing private life.",
+          "text": "Gesundheit und Sicherheit schützen und schädlichem Verhalten vorbeugen, ohne das Privatleben unter Strafe zu stellen.",
           "next": "civic_paternalism"
         },
         {
-          "text": "Defending public decency and moral cohesion by outlawing obscenity, vice, and behaviors that degrade social values.",
+          "text": "Öffentliche Sittlichkeit und moralischen Zusammenhalt bewahren, indem Obszönität, Laster und gesellschaftlich missbilligtes Verhalten verboten werden.",
           "next": "legal_moralism"
         },
         {
-          "text": "Enforcing public security, behavioral conformity, or systematic collective discipline.",
+          "text": "Öffentliche Sicherheit, angepasstes Verhalten oder eine systematische kollektive Disziplin durchsetzen.",
           "next": "sc_order"
         }
       ]
     },
     {
       "id": "sc_order",
-      "text": "Through what mechanism should social order and collective discipline be maintained?",
+      "text": "Mit welchen Mitteln sollten gesellschaftliche Ordnung und kollektive Disziplin gewahrt werden?",
       "options": [
         {
-          "text": "Preemptive monitoring, intelligence gathering, and mass surveillance to prevent crime and maintain security.",
+          "text": "Durch vorbeugende Überwachung und umfassende Datenerfassung Verbrechen verhindern und die Sicherheit stärken.",
           "next": "securitism"
         },
         {
-          "text": "Correcting personal habits, enforcing public etiquette, and penalizing antisocial behavior to ensure social cohesion.",
+          "text": "Persönliche Gewohnheiten beeinflussen, Regeln des öffentlichen Zusammenlebens durchsetzen und gemeinschaftsschädigendes Verhalten bestrafen.",
           "next": "disciplinarianism"
         },
         {
-          "text": "Subordinating personal life and domestic priorities directly to the collective mission of the state.",
+          "text": "Das Privatleben und persönliche Angelegenheiten unmittelbar den gemeinsamen Zielen des Staates unterordnen.",
           "next": "sc_regime"
         }
       ]
     },
     {
       "id": "sc_regime",
-      "text": "How absolute should the subordination of civilian life to the state be?",
+      "text": "Wie umfassend sollte das zivile Leben den Zielen des Staates untergeordnet werden?",
       "options": [
         {
-          "text": "Mobilizing daily life, youth upbringing, and family responsibilities through mandatory civic service and state duty.",
+          "text": "Alltag, Jugenderziehung und familiäre Pflichten durch verpflichtenden Zivil- oder Militärdienst und staatliche Programme auf nationale Ziele ausrichten.",
           "next": "regimentalism"
         },
         {
-          "text": "Eradicating the private sphere entirely: reproduction, thought, and conscience are wholly owned by the collective.",
+          "text": "Den privaten Lebensbereich vollständig abschaffen und Fortpflanzung, Denken und Gewissen dem Kollektiv unterstellen.",
           "next": "totalism"
         }
       ]
@@ -1510,60 +1510,60 @@
   "territorial_organization": [
     {
       "id": "to1",
-      "text": "How should sovereign political authority be distributed across territory and administrative levels?",
+      "text": "Wie sollte die politische Macht zwischen Gebieten und Verwaltungsebenen verteilt werden?",
       "options": [
         {
-          "text": "Power must belong primarily to local communities or sovereign states via voluntary, bottom-up association.",
+          "text": "Die Macht sollte vor allem bei örtlichen Gemeinschaften oder unabhängigen Staaten liegen, die sich freiwillig von unten nach oben zusammenschließen.",
           "next": "to_decentralized"
         },
         {
-          "text": "Power should be shared or balanced between regional self-rule and a unifying central framework.",
+          "text": "Die Macht sollte zwischen regionaler Selbstverwaltung und einem verbindenden zentralen Rahmen aufgeteilt oder ausgewogen sein.",
           "next": "to_balanced"
         },
         {
-          "text": "Sovereignty must be undivided and concentrated within a unitary national state.",
+          "text": "Die gesamte politische Macht sollte in einem einheitlichen Nationalstaat liegen.",
           "next": "to_unitary"
         }
       ]
     },
     {
       "id": "to_decentralized",
-      "text": "At what scale should this decentralized sovereignty reside?",
+      "text": "Auf welcher Ebene sollte die politische Macht vor allem liegen?",
       "options": [
         {
-          "text": "Directly in self-governing local communes and city assemblies, federating horizontally through recallable delegates.",
+          "text": "Direkt bei selbstverwalteten Gemeinden und Stadtversammlungen, die sich über jederzeit abwählbare Delegierte gleichberechtigt zusammenschließen.",
           "next": "municipalism"
         },
         {
-          "text": "In sovereign cantons, states, or republics joined by treaty with unilateral veto and secession rights.",
+          "text": "Bei unabhängigen Kantonen, Ländern oder Republiken, die sich vertraglich zusammenschließen und ein Vetorecht sowie ein Austrittsrecht behalten.",
           "next": "confederalism"
         }
       ]
     },
     {
       "id": "to_balanced",
-      "text": "How should power be shared between the national government and the regions?",
+      "text": "Wie sollte die Macht zwischen der nationalen Regierung und den Regionen aufgeteilt werden?",
       "options": [
         {
-          "text": "A federation where states or provinces have their own constitution, laws, and powers that the central government cannot take away.",
+          "text": "In einem Bundesstaat, dessen Länder eigene Verfassungen, Gesetze und Zuständigkeiten haben, die die Zentralregierung nicht aufheben kann.",
           "next": "federalism"
         },
         {
-          "text": "A single unified country that grants self-rule and local parliaments to specific historical or cultural regions.",
+          "text": "In einem Einheitsstaat, der bestimmten historischen oder kulturellen Regionen Selbstverwaltung und eigene Parlamente zugesteht.",
           "next": "regionalism"
         }
       ]
     },
     {
       "id": "to_unitary",
-      "text": "How much control should the national capital have over the rest of the country?",
+      "text": "Wie stark sollte die Zentralregierung das übrige Land kontrollieren?",
       "options": [
         {
-          "text": "A standard unified country with one set of national laws, where local councils and mayors manage everyday town affairs.",
+          "text": "Ein Einheitsstaat mit landesweit geltenden Gesetzen, in dem örtliche Räte und Bürgermeister die Angelegenheiten der Gemeinden verwalten.",
           "next": "centralism"
         },
         {
-          "text": "Totalitarian erasure of all local identity, regional culture, and local self-rule—every district is micromanaged like a regiment directly from the capital.",
+          "text": "Alle örtlichen Identitäten, regionalen Kulturen und Formen der Selbstverwaltung beseitigen und jeden Bezirk direkt von der Hauptstadt aus streng kontrollieren.",
           "next": "hypercentralism"
         }
       ]

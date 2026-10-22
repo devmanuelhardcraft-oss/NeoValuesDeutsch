@@ -1,4 +1,4 @@
-const CACHE_NAME = 'neovalues-deutsch-v3';
+const CACHE_NAME = 'neovalues-deutsch-v14';
 const APP_SHELL = [
   './',
   './index.html',

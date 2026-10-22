@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ideologiebeschreibung</title>
+    <title>Detailbeschreibung</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/svg" href="icon.svg">
     <script src="theme.js"></script>
@@ -44,7 +44,7 @@
             sourceBtn.style.display = 'none';
             originalSign.style.display = 'none';
         } else if (type === 'ideology') {
-            titleEl.innerText = itemId.toUpperCase();
+            titleEl.innerText = displayIdeologyName(itemId).toUpperCase();
             iconEl.style.display = 'none';
             sourceBtn.style.display = 'none';
             originalSign.style.display = 'none';

@@ -6,7 +6,7 @@
 if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
         navigator.serviceWorker.register('./sw.js').catch((error) => {
-            console.warn('Service Worker registration failed:', error);
+            console.warn('Registrierung des Service Workers fehlgeschlagen:', error);
         });
     });
 }
@@ -23,7 +23,7 @@ window.addEventListener('DOMContentLoaded', () => {
         const toggleBtn = document.createElement('button');
         toggleBtn.className = 'theme-toggle-corner';
         toggleBtn.setAttribute('onclick', 'toggleTheme()');
-        toggleBtn.setAttribute('aria-label', 'Toggle light/dark mode');
+        toggleBtn.setAttribute('aria-label', 'Hell- oder Dunkelmodus umschalten');
         toggleBtn.innerHTML = `
             <svg width="80" height="80" viewBox="0 0 250 250" aria-hidden="true">
                 <path d="M0,0 L250,250 L250,0 Z"></path>
